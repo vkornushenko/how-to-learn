@@ -1,7 +1,3 @@
-p, h1, h2, h3, h4, h5, a{
-  margin: 0;
-}
-
 /* примешиваем элемент cell блоку digits для отступа сверху в блоке digits */
 .digits__cell{
   margin-top: 60px;
