@@ -14,12 +14,12 @@
 <body class="root">
   <div class="page">
     <header class="header">
-        <img src="images/logo.svg"  class="logo logo_place_header" alt="логотип Яндекс Практикум">
-        <div class="header__square-pic animation-rotation"></div>
-        <img src="images/two_again.png" alt="картина опять двойка" class="header__main-illustration">
-        <h1 class="header__title header__title_place_header">Научиться учиться</h1>
-        <h3 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
-          жизни? <a href="#techniques" class="header__link fade">Узнать &rarr;</a></h3>
+      <div class="logo logo_place_header"></div>
+      <div class="header__square-pic animation-rotation"></div>
+      <img src="images/two_again.png" alt="картина опять двойка" class="header__main-illustration">
+      <h1 class="header__title header__title_place_header">Научиться учиться</h1>
+      <h3 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
+        жизни? <a href="#techniques" class="header__link fade">Узнать &rarr;</a></h3>
     </header>
     <main class="content">
       <!-- секция, блок description -->
@@ -72,12 +72,8 @@
         <h2 class="section-title">Видео нa TED</h2>
         <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
         <div class="video__iframes">
-          <div class="video__iframe">
-            <iframe width="515" height="290" src="https://www.youtube.com/embed/5MgBikgcWnY?controls=0" allowfullscreen></iframe>
-          </div>
-          <div class="video__iframe">
-            <iframe width="515" height="290" src="https://www.youtube.com/embed/arj7oStGLkU?controls=0" allowfullscreen></iframe>
-          </div>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY?controls=0" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU?controls=0" allowfullscreen></iframe>
         </div>
       </section>
       <section class="oakley">
@@ -214,10 +210,12 @@
     </main>
     <footer class="footer">
       <div class="footer__columns">
+
         <div class="footer__column_content_copyright">
-          <img src="images/logo_white.svg"  class="logo logo_place_footer" alt="логотип Яндекс Практикум">
+          <div class="logo logo_place_footer"></div>
           <p class="footer__author">&copy; Владислав Корнюшенко</p>
         </div>
+
         <div class="footer__column_content_info">
           <h5 class="footer__column-heading">О Практикуме</h5>
           <ul class="footer__column-links">
