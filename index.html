@@ -6,8 +6,6 @@
   <meta name="description" content="современные и эффективные подходы к обучению">
   <meta name="keywords" content="техника обучения, метод Фейнмана, про учебу и мозг, принципы обучения">
   <meta name="author" content="Владислав Корнюшенко">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/fonts.css">
   <link rel="stylesheet" href="pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -15,7 +13,7 @@
   <div class="page">
     <header class="header">
       <div class="logo logo_place_header"></div>
-      <div class="header__square-pic animation-rotation"></div>
+      <div class="header__square-pic rotation"></div>
       <img src="images/two_again.png" alt="картина опять двойка" class="header__main-illustration">
       <h1 class="header__title header__title_place_header">Научиться учиться</h1>
       <h3 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
@@ -142,19 +140,17 @@
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <div class="khan__book-pic">
-              <img src="images/khan-book.jpg" alt="книга Салман Хан, Весь мир - школа">
-            </div>
+            <img src="images/khan-book.jpg" class="khan__book-pic" alt="книга Салман Хан, Весь мир - школа">
             <a href="#" target="_blank" class="khan__buy-link fade">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
       <!-- секция, блок kaufman -->
       <section class="kaufman">
-        <div class="kaufman__triangle animation-rotation"></div>
+        <div class="kaufman__triangle rotation"></div>
         <h2 class="section-title kaufman__section-title section-title_theme_dark">Принципы обучения</h2>
-        <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
-        <div class="table table_theme_dark">
+        <h3 class="section-subtitle kaufman__section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
+        <div class="table kaufman__table table_theme_dark">
           <div class="table__cell table__cell_theme_dark">
             <h4 class="table__heading table__heading_theme_dark">1</h4>
             <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
@@ -211,35 +207,37 @@
     <footer class="footer">
       <div class="footer__columns">
 
-        <div class="footer__column_content_copyright">
+        <div class="footer__column footer__column_content_copyright">
           <div class="logo logo_place_footer"></div>
           <p class="footer__author">&copy; Владислав Корнюшенко</p>
         </div>
 
-        <div class="footer__column_content_info">
+        <div class="footer__column">
           <h5 class="footer__column-heading">О Практикуме</h5>
-          <ul class="footer__column-links">
-            <li>
-              <a href="https://practicum.yandex.ru/" target="_blank" class="footer__column-link fade">Главная</a>
-            </li>
-            <li>
-              <a href="#" target="_blank" class="footer__column-link fade">Концепция</a>
-            </li>
-            <li>
-              <a href="#" target="_blank" class="footer__column-link fade">Наставники</a>
-            </li>
-          </ul>
+          <nav>
+            <ul class="footer__column-links">
+              <li class="footer__column-item">
+                <a href="https://practicum.yandex.ru/" target="_blank" class="footer__column-link fade">Главная</a>
+              </li>
+              <li class="footer__column-item">
+                <a href="#" target="_blank" class="footer__column-link fade">Концепция</a>
+              </li>
+              <li class="footer__column-item">
+                <a href="#" target="_blank" class="footer__column-link fade">Наставники</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <div class="footer__column_content_social">
+        <div class="footer__column">
           <h5 class="footer__column-heading">Соцсети</h5>
           <ul class="footer__column-links">
-            <li>
+            <li class="footer__column-item">
               <a href="https://www.facebook.com/yandex.praktikum" target="_blank" class="footer__column-link fade"><img src="images/facebook_white.svg" alt="facebook" class="footer__social-icon"> Facebook</a>
             </li>
-            <li>
+            <li class="footer__column-item">
               <a href="https://vk.com/yandex.praktikum" target="_blank" class="footer__column-link fade"><img src="images/vk_white.svg" alt="ВКонтакте" class="footer__social-icon"> ВКонтакте</a>
             </li>
-            <li>
+            <li class="footer__column-item">
               <a href="#" target="_blank" class="footer__column-link fade"><img src="images/instagram_white.svg" alt="Instagram" class="footer__social-icon"> Instagram</a>
             </li>
           </ul>
